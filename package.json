@@ -1,0 +1,15 @@
+{
+  "name": "aurora-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node ws-server.js"
+  },
+  "dependencies": {
+    "livekit-server-sdk": "^2.6.1",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
